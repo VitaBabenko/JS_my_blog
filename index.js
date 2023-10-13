@@ -1,5 +1,3 @@
-// import { fetchPosts } from "./fetchPosts";
-
 // const input = document.querySelector(".filter");
 const list = document.querySelector(".list_posts");
 const loadMoreBtn = document.querySelector(".load_more");
