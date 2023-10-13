@@ -1,4 +1,4 @@
-import { fetchPosts } from "./fetchPosts";
+// import { fetchPosts } from "./fetchPosts";
 
 // const input = document.querySelector(".filter");
 const list = document.querySelector(".list_posts");
@@ -7,6 +7,17 @@ let page = 1;
 let renderedPosts = 5;
 
 loadMoreBtn.addEventListener("click", onLoadMoreBtn);
+
+async function fetchPosts(page) {
+  try {
+    const BASE_URL = "https://jsonplaceholder.typicode.com/posts";
+
+    const resp = await fetch(`${BASE_URL}?_limit=5&_page=${page}`);
+    return await resp.json();
+  } catch (error) {
+    console.log(error);
+  }
+}
 
 function createMarkupList(posts) {
   const markup = posts

@@ -575,27 +575,36 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"bB7Pu":[function(require,module,exports) {
-var _fetchPosts = require("./fetchPosts");
+// import { fetchPosts } from "./fetchPosts";
 // const input = document.querySelector(".filter");
 const list = document.querySelector(".list_posts");
 const loadMoreBtn = document.querySelector(".load_more");
 let page = 1;
 let renderedPosts = 5;
 loadMoreBtn.addEventListener("click", onLoadMoreBtn);
+async function fetchPosts(page) {
+    try {
+        const BASE_URL = "https://jsonplaceholder.typicode.com/posts";
+        const resp = await fetch(`${BASE_URL}?_limit=5&_page=${page}`);
+        return await resp.json();
+    } catch (error) {
+        console.log(error);
+    }
+}
 function createMarkupList(posts) {
     const markup = posts.map(({ id, title, body })=>{
         return `<li class="list_item"><span>${id}</span><h2>${title}</h2><p>${body}</p></li>`;
     }).join("");
     list.insertAdjacentHTML("beforeend", markup);
 }
-(0, _fetchPosts.fetchPosts)(page).then((posts)=>{
+fetchPosts(page).then((posts)=>{
     console.log(posts);
     createMarkupList(posts);
 }).catch((error)=>console.log(error));
 async function onLoadMoreBtn() {
     try {
         page += 1;
-        const response = await (0, _fetchPosts.fetchPosts)(page);
+        const response = await fetchPosts(page);
         renderedPosts += response.length;
         console.log(renderedPosts);
         if (renderedPosts === 100) loadMoreBtn.style.display = "none";
@@ -607,50 +616,6 @@ async function onLoadMoreBtn() {
         console.log(err);
     }
 }
-
-},{"./fetchPosts":"28RPB"}],"28RPB":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "fetchPosts", ()=>fetchPosts);
-async function fetchPosts(page) {
-    try {
-        const BASE_URL = "https://jsonplaceholder.typicode.com/posts";
-        const resp = await fetch(`${BASE_URL}?_limit=5&_page=${page}`);
-        return await resp.json();
-    } catch (error) {
-        console.log(error);
-    }
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
 
 },{}]},["3smKr","bB7Pu"], "bB7Pu", "parcelRequire29af")
 
