@@ -1,0 +1,26 @@
+{
+    "cSpell.words": [
+        "argparse",
+        "arrayish",
+        "boolbase",
+        "callsites",
+        "caniuse",
+        "csso",
+        "domelementtype",
+        "domhandler",
+        "domutils",
+        "extglob",
+        "htmlnano",
+        "libc",
+        "lightningcss",
+        "lmdb",
+        "msgpackr",
+        "msvc",
+        "nullthrows",
+        "picocolors",
+        "picomatch",
+        "srcset",
+        "timsort",
+        "yallist"
+    ]
+}
