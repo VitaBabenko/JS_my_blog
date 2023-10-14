@@ -1,7 +1,62 @@
 body {
   background-color: violet;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
 }
 
 .title {
   color: azure;
+}
+
+.wrapper {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.list_item {
+  position: relative;
+  background-color: darkturquoise;
+  border-radius: 10px;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.span {
+  position: absolute;
+  top: -5%;
+  left: -1%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.loader {
+  width: 30px;
+  height: 30px;
+  border: 10px solid rgba(13, 71, 161, 0.6);
+  border-radius: 50%;
+  border-left-color: #0d47a1;
+  animation: loader 1.3s linear infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes loader {
+  100% {
+    transform: rotate(360deg);
+  }
 }
