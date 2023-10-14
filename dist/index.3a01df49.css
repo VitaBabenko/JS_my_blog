@@ -1,24 +1,21 @@
-body {
-  text-align: center;
-  background-color: violet;
-}
-
 ul {
   list-style: none;
 }
 
 .title {
-  color: azure;
+  color: violet;
+  text-align: center;
 }
 
 .wrapper {
+  text-align: center;
   width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .filter {
-  border: none;
+  border-color: violet;
   border-radius: 5px;
   width: 300px;
   height: 30px;
@@ -35,8 +32,8 @@ ul {
 }
 
 .span {
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: violet;
+  border: 1px solid violet;
   border-radius: 50%;
   padding: 5px 10px;
   position: absolute;
@@ -46,7 +43,7 @@ ul {
 
 .loader {
   border: 10px solid #0d47a199;
-  border-left-color: #0d47a1;
+  border-left-color: violet;
   border-radius: 50%;
   width: 30px;
   height: 30px;
