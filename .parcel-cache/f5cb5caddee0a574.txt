@@ -7,7 +7,7 @@
 84D:\GitHub\JS_my_blog\node_modules\@parcel\optimizer-svgo\node_modules\svgo\README.md133416625948996432 0
 76D:\GitHub\JS_my_blog\node_modules\css-tree\cjs\utils\create-custom-error.cjs133416625926153677 0
 95D:\GitHub\JS_my_blog\node_modules\csso\node_modules\css-tree\cjs\tokenizer\OffsetToLocation.cjs133416625952795279 0
-30D:\GitHub\JS_my_blog\style.css133417789840306957 0
+30D:\GitHub\JS_my_blog\style.css133417890918337066 0
 50D:\GitHub\JS_my_blog\node_modules\is-glob\index.js133416625893102189 0
 61D:\GitHub\JS_my_blog\node_modules\@parcel\package-manager\lib133416625946223896 1
 87D:\GitHub\JS_my_blog\node_modules\csso\node_modules\css-tree\lib\syntax\function\var.js133416625967817705 0
@@ -48,10 +48,10 @@
 91D:\GitHub\JS_my_blog\node_modules\@parcel\runtime-js\src\helpers\browser\prefetch-loader.js133416625939445182 0
 65D:\GitHub\JS_my_blog\node_modules\caniuse-lite\data\regions\BA.js133416625941210084 0
 57D:\GitHub\JS_my_blog\node_modules\htmlnano\lib\helpers.js133416625911229635 0
-25D:\GitHub\JS_my_blog\dist133417884285482663 1
+25D:\GitHub\JS_my_blog\dist133417890919500616 1
 109D:\GitHub\JS_my_blog\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\filesystem.js133416625925551814 0
 56D:\GitHub\JS_my_blog\node_modules\entities\lib\encode.js133416625906877559 0
-31D:\GitHub\JS_my_blog\index.html133417803459853250 0
+31D:\GitHub\JS_my_blog\index.html133417887970426997 0
 66D:\GitHub\JS_my_blog\node_modules\@swc\helpers\cjs\_instanceof.cjs133416625941405961 0
 77D:\GitHub\JS_my_blog\node_modules\@parcel\transformer-svg\src\dependencies.js133416625905238668 0
 62D:\GitHub\JS_my_blog\node_modules\svgo\plugins\inlineStyles.js133416625930067926 0
@@ -303,7 +303,7 @@
 86D:\GitHub\JS_my_blog\node_modules\caniuse-lite\data\features\getelementsbyclassname.js133416625972419726 0
 49D:\GitHub\JS_my_blog\node_modules\tslib\README.md133416625906474781 0
 65D:\GitHub\JS_my_blog\node_modules\caniuse-lite\data\regions\SA.js133416625984755549 0
-44D:\GitHub\JS_my_blog\dist\index.3a01df49.css133417884285232943 0
+44D:\GitHub\JS_my_blog\dist\index.3a01df49.css133417890919500616 0
 48D:\GitHub\JS_my_blog\node_modules\dom-serializer133416625910529543 1
 70D:\GitHub\JS_my_blog\node_modules\mdn-data\api\inheritance.schema.json133416625912759464 0
 49D:\GitHub\JS_my_blog\node_modules\srcset\index.js133416625894806731 0
@@ -1243,7 +1243,7 @@
 81D:\GitHub\JS_my_blog\node_modules\@parcel\transformer-json\lib\JSONTransformer.js133416625907200997 0
 46D:\GitHub\JS_my_blog\node_modules\posthtml\lib133416625897926251 1
 53D:\GitHub\JS_my_blog\node_modules\srcset\package.json133416625897270390 0
-48D:\GitHub\JS_my_blog\dist\index.3a01df49.css.map133417884285232943 0
+48D:\GitHub\JS_my_blog\dist\index.3a01df49.css.map133417890919500616 0
 105D:\GitHub\JS_my_blog\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\config\lexer.js133416625947795397 0
 77D:\GitHub\JS_my_blog\node_modules\@swc\helpers\_\_inherits_loose\package.json133416625967448420 0
 61D:\GitHub\JS_my_blog\node_modules\source-map-js\lib\base64.js133416625897540923 0
@@ -3288,7 +3288,7 @@
 56D:\GitHub\JS_my_blog\node_modules\css-tree\cjs\index.cjs133416625944828702 0
 76D:\GitHub\JS_my_blog\node_modules\@parcel\transformer-babel\src\constants.js133416625924161547 0
 59D:\GitHub\JS_my_blog\node_modules\@parcel\transformer-babel133416625931813151 1
-43D:\GitHub\JS_my_blog\dist\index.3d214d75.js133417884285346967 0
+43D:\GitHub\JS_my_blog\dist\index.3d214d75.js133417890211143639 0
 56D:\GitHub\JS_my_blog\node_modules\css-tree\cjs\tokenizer133416625957655329 1
 64D:\GitHub\JS_my_blog\node_modules\css-tree\cjs\walker\create.cjs133416625931819141 0
 71D:\GitHub\JS_my_blog\node_modules\caniuse-lite\data\features\flexbox.js133416625969909739 0
@@ -5819,6 +5819,6 @@
 49D:\GitHub\JS_my_blog\node_modules\.bin\semver.ps1133416626005318014 0
 43D:\GitHub\JS_my_blog\node_modules\.bin\svgo133416626005307634 0
 65D:\GitHub\JS_my_blog\node_modules\.bin\update-browserslist-db.ps1133416626005375784 0
-47D:\GitHub\JS_my_blog\dist\index.3d214d75.js.map133417884285346967 0
-36D:\GitHub\JS_my_blog\dist\index.html133417884285482663 0
+47D:\GitHub\JS_my_blog\dist\index.3d214d75.js.map133417890211165802 0
+36D:\GitHub\JS_my_blog\dist\index.html133417890210915139 0
 42D:\GitHub\JS_my_blog\.vscode\settings.json133416641049877211 0
