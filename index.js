@@ -1,5 +1,7 @@
 import "./style.css";
 
+const BASE_URL = "https://jsonplaceholder.typicode.com/posts";
+
 const input = document.querySelector(".filter");
 const list = document.querySelector(".list_posts");
 const loader = document.querySelector(".loader");
@@ -23,8 +25,6 @@ function offAutoScroll() {
 
 async function fetchPosts(page) {
   try {
-    const BASE_URL = "https://jsonplaceholder.typicode.com/posts";
-
     const resp = await fetch(
       `${BASE_URL}?_limit=${limitPerPage}&_page=${page}`
     );
