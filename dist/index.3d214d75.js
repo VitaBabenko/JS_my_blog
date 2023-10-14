@@ -575,7 +575,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"bB7Pu":[function(require,module,exports) {
-var _styleCss = require("./style.css");
 const BASE_URL = "https://jsonplaceholder.typicode.com/posts";
 const input = document.querySelector(".filter");
 const list = document.querySelector(".list_posts");
@@ -651,6 +650,6 @@ function onInput() {
     }
 }
 
-},{"./style.css":"dRy26"}],"dRy26":[function() {},{}]},["3smKr","bB7Pu"], "bB7Pu", "parcelRequire29af")
+},{}]},["3smKr","bB7Pu"], "bB7Pu", "parcelRequire29af")
 
 //# sourceMappingURL=index.3d214d75.js.map
